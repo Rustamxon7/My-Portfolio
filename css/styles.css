@@ -13,13 +13,13 @@ html {
   padding-top: 104px;
   padding-bottom: 80px;
   background-image: url(/images/shapes.svg);
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 body {
   padding-bottom: 60px;
   border-bottom-left-radius: 95px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 nav {
   display: flex;
@@ -45,7 +45,7 @@ nav {
 }
 
 .maintext {
-  margin: 0rem 1.5rem;
+  margin: 0.02rem 1.5rem;
 }
 
 h1 {
@@ -76,3 +76,4 @@ h3 {
   gap: 20px;
   margin-top: 1.25rem;
 }
+
