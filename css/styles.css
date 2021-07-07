@@ -56,7 +56,7 @@ h1 {
   line-height: 3.25rem;
 }
 
-h2 {
+p {
   font-size: 1rem;
   font-weight: 400;
   color: #344563;
@@ -64,7 +64,7 @@ h2 {
   line-height: 1.5rem;
 }
 
-.icons,
+ul,
 h3 {
   margin-top: 1.25rem;
 }
@@ -76,7 +76,7 @@ h3 {
   margin-top: 1.25rem;
 }
 
-.icons {
+ul {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 20px;
