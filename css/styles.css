@@ -21,6 +21,7 @@ body {
   border-bottom-left-radius: 95px;
   background-color: #fff;
 }
+
 nav {
   display: flex;
   flex-direction: row;
