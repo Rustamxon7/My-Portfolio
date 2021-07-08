@@ -314,3 +314,8 @@ button {
   justify-content: space-between;
   align-items: center;
 }
+
+.selectors-icon-2 {
+  transform: rotate(-90deg);
+   height: 0.85em;
+}
