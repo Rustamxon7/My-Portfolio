@@ -103,7 +103,7 @@ li {
 .bg-img-2 {
   top: 18%;
   left: 35%;
-  height: 1.25re;
+  height: 1.25rem;
   transform: rotate(50deg);
 }
 
@@ -167,7 +167,6 @@ li {
   background-color: #fff;
   margin-left: 20px;
   margin-right: 20px;
-
   padding-bottom: 15px;
 }
 
@@ -284,6 +283,14 @@ button {
   justify-content: space-between;
 }
 
+.langguages div {
+  display: flex;
+  flex-direction: row;
+  background-color: #f7f7f9;
+  margin: 5px;
+  padding: 15px;
+}
+
 .selectors li div {
   display: flex;
 }
@@ -291,14 +298,6 @@ button {
 .langguages {
   display: flex;
   flex-direction: column;
-}
-
-.langguages div {
-  display: flex;
-  flex-direction: row;
-  background-color: #f7f7f9;
-  margin: 5px;
-  padding: 15px;
 }
 
 .langguages p {
