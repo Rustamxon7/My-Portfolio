@@ -237,8 +237,20 @@ h3 {
 }
 */
 
+ul {
+  list-style-type: none;
+}
 
+ul li {
+  width: 100px;
+  height: 20px;
+  margin: 5px;
+  background-color: red;
+}
 
+ul .num-1 {
+  float: left;
+}
 
 button {
   margin-top: 15px;
