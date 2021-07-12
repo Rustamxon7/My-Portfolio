@@ -66,7 +66,7 @@ p {
   line-height: 24px;
 }
 
-ul,
+.sites,
 h3 {
   margin-top: 20px;
 }
@@ -78,13 +78,13 @@ h3 {
   margin-top: 20px;
 }
 
-ul {
+.sites {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-li {
+.web {
   list-style-type: none;
 }
 
@@ -151,24 +151,24 @@ li {
 .card-works {
   display: flex;
   flex-direction: column;
-  border: rgba(58, 58, 58, 0.103) solid 1px;
-  border-radius: 15px;
+  border: rgba(58, 58, 58, 0.103) solid 0.0625rem;
+  border-radius: 0.9375rem;
   background-color: #fff;
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-  margin-top: 3.125rem;
-  padding-bottom: 0.9375rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  padding-bottom: 15px;
 }
 
 .card-works-2 {
   display: flex;
   flex-direction: column;
-  border: rgba(58, 58, 58, 0.103) solid 1px;
-  border-radius: 15px;
+  border: rgba(58, 58, 58, 0.103) solid 0.0625rem;
+  border-radius: 0.9375rem;
   background-color: #fff;
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-  padding-bottom: 0.9375rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 15px;
 }
 
 .snapshoot {
@@ -222,17 +222,23 @@ li {
   font-weight: 400;
   font-size: 15px;
 }
-
+/*
 .html,
 .css,
 .js {
+  float: left;
   font-size: 12px;
   margin-top: 15px;
-  padding: 1px 14px;
+  margin-right: 15px;
+  padding: 3px 24px;
   border-radius: 10px;
   color: #6070ff;
   background: #ebebff;
 }
+*/
+
+
+
 
 button {
   margin-top: 15px;
@@ -246,15 +252,15 @@ button {
 
 .about-myself {
   background-color: #fff;
-  border-top-right-radius: 5.9375rem;
-  padding: 1.875rem 1.25rem;
-  margin-top: 5rem;
+  border-top-right-radius: 95px;
+  padding: 30px 20px;
+  margin-top: 10px;
 }
 
 .resume {
-  margin-top: 1.25rem;
-  height: 3rem;
-  width: 10.125rem;
+  margin-top: 20px;
+  height: 58px;
+  width: 162px;
 }
 
 .mytext h1 {
@@ -263,12 +269,12 @@ button {
 }
 
 .about-myself h1 {
-  font-size: 3.25rem;
-  line-height: 3.25rem;
+  font-size: 52px;
+  line-height: 52px;
 }
 
 .selectors h1 {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -288,8 +294,8 @@ button {
   display: flex;
   flex-direction: row;
   background-color: #f7f7f9;
-  margin: 0.3125rem;
-  padding: 0.9375rem;
+  margin: 5px;
+  padding: 15px;
 }
 
 .selectors li div {
@@ -302,12 +308,12 @@ button {
 }
 
 .languages p {
-  margin-left: 1.25rem;
-  font-size: 0.9375rem;
+  margin-left: 20px;
+  font-size: 15px;
 }
 
 .selectors-icon {
-  height: 0.5em;
+  height: 1.5em;
 }
 
 .list-button {
@@ -318,21 +324,17 @@ button {
 
 .selectors-icon-2 {
   transform: rotate(-90deg);
-  height: 0.5em;
+  height: 1.5em;
 }
 
 @media screen and (min-with: 500px) {
   html {
     font-size: 62.5%;
   }
-
-  
-  
 }
 
 @media screen and (min-with: 1800px) {
   html {
     font-size: 75%;
   }
-  
 }
