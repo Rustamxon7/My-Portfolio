@@ -164,7 +164,7 @@ body {
   font-size: 13px;
 }
 
-.card-info li img {
+.card-info-dot {
   height: 8px;
 }
 
@@ -206,7 +206,8 @@ body {
 
 .about-button {
   display: block;
-  padding: 12px 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .skills-list {
