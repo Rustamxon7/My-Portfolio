@@ -283,7 +283,7 @@ button {
   justify-content: space-between;
 }
 
-.langguages div {
+.languages div {
   display: flex;
   flex-direction: row;
   background-color: #f7f7f9;
@@ -295,18 +295,18 @@ button {
   display: flex;
 }
 
-.langguages {
+.languages {
   display: flex;
   flex-direction: column;
 }
 
-.langguages p {
+.languages p {
   margin-left: 20px;
   font-size: 15px;
 }
 
 .selectors-icon {
-  height: 0.85em;
+  height: 0.5em;
 }
 
 .list-button {
@@ -317,5 +317,5 @@ button {
 
 .selectors-icon-2 {
   transform: rotate(-90deg);
-  height: 0.85em;
+  height: 0.5em;
 }
