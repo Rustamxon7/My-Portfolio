@@ -64,7 +64,7 @@ body {
 }
 
 .header {
-  height: calc(100vh - 176.8px);
+  height: calc(100vh - 76.8px);
   background-color: #fff;
   border-bottom-left-radius: 100px;
   background-image: url(images/header-shapes-mobile.svg);
@@ -157,6 +157,11 @@ body {
   padding: 8px 0;
 }
 
+.input-text {
+  color: #7A869A
+;
+}
+
 .card-info li {
   display: flex;
   align-items: center;
@@ -202,6 +207,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.text {
+  margin-right: 60px;
 }
 
 .about-button {
