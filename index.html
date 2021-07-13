@@ -111,9 +111,9 @@
                 <ul class="card-info">
                     <li>CANOPY </li>
                     <li><img src="/images/section2/Counter.svg" alt="dot" class="card-info-dot"></li>
-                    <li>Back End Dev</li>
+                    <li class="input-text">Back End Dev</li>
                     <li><img src="/images/section2/Counter.svg" alt="dot" class="card-info-dot"></li>
-                    <li>2015</li>
+                    <li class="input-text">2015</li>
                 </ul>
                 <p class="text-secondary">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                 <ul class="card-tags">
@@ -130,9 +130,9 @@
 
     <section class="about">
         <div class="about-text">
-            <h1 class="heading-primary">
-                I'm Rustambek Glad to see you!
-            </h1>
+            <h2 class="heading-primary text">
+                About Myself
+            </h2>
             <p class="text-primary">
                 I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
@@ -172,11 +172,27 @@
     <section class="contact">
         <img src="images/section3/contact-form-shapes-mobile.svg" alt="background" class="contact-bg">
         <div class="contact-text">
-            <h3 class="heading-tertiary">Contect me</h3>
+            <h3 class="heading-tertiary">Contact me</h3>
             <p class="secondary-text">
                 If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
             </p>
         </div>
+        <form action="https://formspree.io/f/xzbyaeyk" method="POST" class="contact-form">
+            <ul>
+                <li>
+                    <input type="text" pattern="[A-Za-z]+" class="contact-element" name="user-name" placeholder="Name" maxlength="30" required>
+                </li>
+                <li>
+                    <input type="email" class="contact-element" name="user-email" placeholder="example@gmail.com" required>
+                </li>
+                <li>
+                    <textarea name="user-message" class="contact-element" cols="30" rows="10" placeholder="Write your message here" maxlength="500" required></textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Get in touch" class="button btn-contact">
+                </li>
+            </ul>
+        </form>
     </section>
 </body>
 

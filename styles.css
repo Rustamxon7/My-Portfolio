@@ -64,7 +64,7 @@ body {
 }
 
 .header {
-  height: calc(100vh - 176.8px);
+  height: calc(100vh - 76.8px);
   background-color: #fff;
   border-bottom-left-radius: 100px;
   background-image: url(images/header-shapes-mobile.svg);
@@ -157,6 +157,10 @@ body {
   padding: 8px 0;
 }
 
+.input-text {
+  color: #7a869a;
+}
+
 .card-info li {
   display: flex;
   align-items: center;
@@ -202,6 +206,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.text {
+  margin-right: 60px;
 }
 
 .about-button {
@@ -293,4 +301,28 @@ body {
   right: 0;
   transform: translateY(-50%);
   height: 90%;
+}
+
+.contact-form {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-form ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-element {
+  border: 1px solid #cfd8dc;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.btn-contact {
+  display: inline-block;
+  background-color: #fff;
 }
