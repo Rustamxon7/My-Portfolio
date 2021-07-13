@@ -314,3 +314,10 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
+.contact-element {
+  border: 1px solid #cfd8dc;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+}
