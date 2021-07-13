@@ -177,19 +177,25 @@
                 If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
             </p>
         </div>
-        <form action="contact" class="contact-form">
+        <form action="https://formspree.io/f/xzbyaeyk" method="POST" class="contact-form">
             <ul>
                 <li>
-                    <input type="text" class="contact-element" name="user-name" placeholder="Name">
-                </li>
-                <li><label for="mail"></label>
-                    <input id="mail" type="email" class="contact-element" name="user-email" placeholder="E-mail">
-                </li>
-                <li>
-                    <textarea name="user-message" class="contact-element" cols="30" rows="10" placeholder="Message"></textarea>
+                    <label for="text">
+                        <input id="text" type="text" pattern="[A-Za-z]+" class="contact-element" name="user-name" placeholder="Name" maxlength="30" required>
+                    </label>
                 </li>
                 <li>
-                    <a href="#" class="button btn-contact">Get in touch</a>
+                    <label for="mail">
+                        <input type="email" class="contact-element" name="user-email" placeholder="example@gmail.com" required>
+                    </label>
+                </li>
+                <li>
+                    <label for="msg">
+                        <textarea id="msg" name="user-message" class="contact-element" cols="30" rows="10" placeholder="Write your message here" required></textarea>
+                    </label>
+                </li>
+                <li>
+                    <input type="submit" value="Get in touch" class="button btn-contact">
                 </li>
             </ul>
         </form>
