@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 43.75; 
+  font-size: 43.75%;
 }
 
 body {
@@ -110,10 +110,6 @@ body {
   gap: 20px;
 }
 
-.social-icons li img {
-  height: 20px;
-}
-
 .work {
   display: flex;
   flex-direction: column;
@@ -196,15 +192,6 @@ body {
   padding: 12px 0;
 }
 
-.card-1 {
-}
-.card-2 {
-}
-.card-3 {
-}
-.card-4 {
-}
-
 .about {
   background-color: #fff;
   border-top-right-radius: 100px;
@@ -225,9 +212,6 @@ body {
 .skills-list {
   font-size: 20px;
   font-weight: 500;
-}
-
-.list-box {
 }
 
 .list-btn {
@@ -263,6 +247,10 @@ body {
   padding: 9px 12px;
   font-size: 15px;
   font-weight: 500;
+}
+
+.social-icons li img {
+  height: 20px;
 }
 
 .contact {
