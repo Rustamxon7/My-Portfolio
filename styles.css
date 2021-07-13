@@ -308,3 +308,9 @@ body {
   padding-right: 20px;
 }
 
+.contact-form ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  gap: 20px;
+}
