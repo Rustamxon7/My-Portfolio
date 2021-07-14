@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project"
+To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/microverse-template-1-project-desktop-version"
 
 git clone your repo
 
