@@ -4,9 +4,6 @@
 
 > Microverse-portfolion-project
 
-<img width="1440" alt="Screen Shot 2021-07-13 at 6 29 15 PM" src="https://user-images.githubusercontent.com/69011963/125460426-25bf3881-bcd6-4bf3-89f0-72d15eb26c42.png">
-
-
 Additional description about the project and its features.
 
 ## Built With
@@ -35,17 +32,12 @@ cd into the folder
 
 open index.html with live server
 
-## Authors
+## Author
 
 👤 **Rustamxon**
 
 - GitHub: [@githubhandle](https://github.com/Rustamxon7)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rustamjon-tolipov-6a831020b)
-
-👤 **DannieMo**
-
-- GitHub: [@githubhandle](https://github.com/DannieMo)
-
 
 ## 🤝 Contributing
 
@@ -60,4 +52,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
