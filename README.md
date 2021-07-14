@@ -6,7 +6,8 @@
 
 microverse-template-1-project-desktop-version
 
-![Screen Shot 2021-07-13 at 8 17 10 PM](https://user-images.githubusercontent.com/69011963/125478570-5eb5c0ab-d5a3-457a-909b-25e01a7f92d2.png)
+<img width="1440" alt="Screen Shot 2021-07-15 at 3 22 09 AM" src="https://user-images.githubusercontent.com/69011963/125701871-6760e803-06c7-4805-8658-fa0d361b6cba.png">
+
 
 Additional description about the project and its features.
 
