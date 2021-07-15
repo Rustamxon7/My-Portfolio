@@ -357,8 +357,9 @@ body {
     display: flex;
     list-style: none;
     gap: 3rem;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 500;
+    align-items: flex-end;
   }
 
   .item-navigation li a {
