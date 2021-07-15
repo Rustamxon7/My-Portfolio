@@ -4,7 +4,10 @@
 
 > Microverse-portfolion-project
 
-![Screen Shot 2021-07-13 at 8 17 10 PM](https://user-images.githubusercontent.com/69011963/125478570-5eb5c0ab-d5a3-457a-909b-25e01a7f92d2.png)
+microverse-template-1-project-desktop-version
+
+<img width="1440" alt="Screen Shot 2021-07-15 at 3 22 09 AM" src="https://user-images.githubusercontent.com/69011963/125701871-6760e803-06c7-4805-8658-fa0d361b6cba.png">
+
 
 Additional description about the project and its features.
 
@@ -26,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project"
+To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/microverse-template-1-project-desktop-version"
 
 git clone your repo
 
@@ -34,17 +37,12 @@ cd into the folder
 
 open index.html with live server
 
-## Authors
+## Author
 
 👤 **Rustamxon**
 
 - GitHub: [@githubhandle](https://github.com/Rustamxon7)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rustamjon-tolipov-6a831020b)
-
-👤 **DannieMo**
-
-- GitHub: [@githubhandle](https://github.com/DannieMo)
-
 
 ## 🤝 Contributing
 
@@ -59,4 +57,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
