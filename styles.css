@@ -220,10 +220,6 @@ body {
   gap: 1.2rem;
 }
 
-.text {
-  margin-right: 25rem;
-}
-
 .about-button {
   display: block;
   padding-top: 1.2rem;
@@ -278,6 +274,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 6rem;
   background-color: #6070ff;
   height: 77.9rem;
@@ -322,8 +319,9 @@ body {
 
 .contact-form ul {
   display: flex;
-  list-style: none;
   flex-direction: column;
+  align-content: center;
+  list-style: none;
   gap: 2rem;
 }
 
@@ -339,9 +337,13 @@ body {
   background-color: #fff;
 }
 
-@media only screen and (min-width: 992px) and (min-width: 1100px) {
+@media only screen and (min-width: 992px) {
   html {
-    font-size: 75%;
+    font-size: 50%;
+  }
+
+  .button {
+    padding: 1.81rem;
   }
 
   .header {
@@ -374,10 +376,6 @@ body {
 
   .header-text {
     padding: 2rem 39rem;
-  }
-
-  .heading-primary {
-    padding-right: 40rem;
   }
 
   .work {
@@ -415,16 +413,19 @@ body {
   .about-text {
     flex-direction: row;
     padding: 14.2rem;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .first-part {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1.9rem;
+    width: 50%;
   }
 
-  .first-part .text-primary {
-    width: 45rem;
+  .skills-list {
+    width: 45%;
   }
 
   .list-selectors {
@@ -455,19 +456,35 @@ body {
   }
 
   .contact-text {
-    padding: 0 49rem;
+    padding: 0 30rem;
   }
 
   .contact-form {
-    padding-left: 55rem;
-    padding-right: 55rem;
+    padding-left: 40rem;
+    padding-right: 40rem;
   }
+}
 
-  .contact-element {
-    border-radius: 0.1rem;
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 62.5%;
   }
+}
 
-  .btn-contact {
-    margin-left: 16.5rem;
+@media screen and (min-width: 1800px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  html {
+    font-size: 81.25%;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  html {
+    font-size: 87.5%;
   }
 }
