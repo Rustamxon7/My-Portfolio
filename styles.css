@@ -334,7 +334,7 @@ body {
   background-color: #fff;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 992px) and (min-width: 1100px) {
   html {
     font-size: 75%;
   }
@@ -455,138 +455,6 @@ body {
   .contact-form {
     padding-left: 55rem;
     padding-right: 55rem;
-  }
-
-  .contact-element {
-    border-radius: 0.1rem;
-  }
-
-  .btn-contact {
-    margin-left: 16.5rem;
-  }
-}
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  html {
-    font-size: 60%;
-  }
-
-  .header {
-    background-image: url(desktop/Background.svg);
-    background-repeat: no-repeat;
-    background-size: 88%;
-  }
-
-  .navigation {
-    padding: 2.4rem 15.5rem;
-  }
-
-  .navigation img {
-    display: none;
-  }
-
-  .item-navigation {
-    display: flex;
-    list-style: none;
-    gap: 3rem;
-    font-size: 15px;
-    font-weight: 500;
-  }
-
-  .item-navigation li a {
-    text-decoration: none;
-    color: #344563;
-  }
-
-  .header-text {
-    padding: 2rem 35rem;
-  }
-
-  .heading-primary {
-    padding-right: 40rem;
-  }
-
-  .work {
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: row;
-    padding: 2.4rem 2.2rem;
-  }
-
-  .card-2,
-  .card-4 {
-    flex-direction: row-reverse;
-  }
-
-  .card img {
-    height: 44.8rem;
-    width: 54.4rem;
-  }
-
-  .card-content {
-    padding: 2.4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2.4rem;
-  }
-
-  .text-secondary {
-    width: 46.4rem;
-  }
-
-  .about-text {
-    flex-direction: row;
-    padding: 14.2rem;
-  }
-
-  .first-part {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-  }
-
-  .first-part .text-primary {
-    width: 45rem;
-  }
-
-  .list-selectors {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .list-selectors li {
-    width: 10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 1.2rem;
-    font-weight: 500;
-  }
-
-  .contact img {
-    display: none;
-  }
-
-  .contact {
-    height: 100vh;
-    background-image: url(desktop/contact-background.svg);
-    background-repeat: no-repeat;
-    background-position-y: 100%;
-    background-position-x: 50%;
-    background-size: 90%;
-  }
-
-  .contact-text {
-    padding: 0 45rem;
-  }
-
-  .contact-form {
-    padding-left: 50rem;
-    padding-right: 50rem;
   }
 
   .contact-element {
