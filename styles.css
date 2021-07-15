@@ -132,6 +132,12 @@ body {
   border: 0.1rem solid #dfe1e6;
   background-color: #fff;
   padding: 1.6rem;
+  
+}
+
+.card:hover {
+  border: 2px solid #a7aeff;
+  transition-duration: 0.1s;
 }
 
 .card img {
