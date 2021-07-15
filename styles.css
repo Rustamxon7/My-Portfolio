@@ -175,8 +175,8 @@ body {
 }
 
 .card-info .card-info-dot {
-  height: 0.8rem !important;
-  width: 0.8rem !important;
+  height: 0.8rem;
+  width: 0.8rem;
 }
 
 .text-secondary {
