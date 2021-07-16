@@ -139,6 +139,11 @@ body {
   border: 0.2rem solid transparent;
 }
 
+.card:hover {
+  border: 0.2rem solid #a7aeff;
+  transition-duration: 0.1s;
+}
+
 .card img {
   height: 22rem;
   object-fit: cover;
