@@ -322,6 +322,12 @@ body {
   text-align: center;
 }
 
+.secondary-text:hover,
+.heading-tertiary:hover {
+  transition-duration: 1s;
+  transform: translate(0px, 10px);
+}
+
 .contact-bg {
   position: absolute;
   top: 50%;
