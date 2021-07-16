@@ -150,11 +150,6 @@ body {
   border-radius: 0.8rem;
 }
 
-.card img:hover {
-  transform: scale(1.01);
-  transition-duration: 0.1s;
-}
-
 .img-desktop {
   display: none;
 }
@@ -304,6 +299,11 @@ body {
   transition: 0.3s;
 }
 
+.card img:hover {
+  transform: scale(1.01);
+  transition-duration: 0.1s;
+}
+
 .social-icons li a img:hover {
   transform: scale(1.3);
 }
@@ -345,7 +345,7 @@ body {
 .secondary-text:hover,
 .heading-tertiary:hover {
   transition-duration: 1s;
-  transform: translate(0px, 10px);
+  transform: translate(0.1px, 10px);
 }
 
 .contact-bg {
