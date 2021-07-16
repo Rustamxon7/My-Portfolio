@@ -6,7 +6,13 @@
 
 microverse-template-1-project-desktop-version
 
-<img width="1440" alt="Screen Shot 2021-07-15 at 3 22 09 AM" src="https://user-images.githubusercontent.com/69011963/125701871-6760e803-06c7-4805-8658-fa0d361b6cba.png">
+![Navbar](https://user-images.githubusercontent.com/69011963/125977370-63dce656-c179-4c96-bcc6-5b089d6dcf8a.gif)
+
+![social icons](https://user-images.githubusercontent.com/69011963/125977424-61fe6f44-392f-4561-835f-1ece945f9cf3.gif)
+
+![card](https://user-images.githubusercontent.com/69011963/125977477-409704d3-253d-4411-b8a7-a67b5054f28e.gif)
+
+![languages](https://user-images.githubusercontent.com/69011963/125977519-cf77a9b0-7b02-4147-8312-fb1b38ba834b.gif)
 
 Additional description about the project and its features.
 
