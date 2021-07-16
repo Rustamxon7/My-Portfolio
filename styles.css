@@ -63,6 +63,11 @@ body {
   color: #6070ff;
 }
 
+.logo:hover {
+  transition-duration: 1s;
+  transform: rotate(360deg);
+}
+
 .item-navigation {
   display: none;
 }
