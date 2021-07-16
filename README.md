@@ -8,7 +8,7 @@ microverse-template-1-project-desktop-version
 
 ![template-1](https://user-images.githubusercontent.com/69011963/125975150-9eda29f4-1429-4b3d-ae4e-4f2cb919ac9f.gif)
 
-microverse-template-1-project-desktop-version
+microverse-template-1-project-desktop-mobile
 
 ![template-1-mobile-verison](https://user-images.githubusercontent.com/69011963/125975880-6ddc4b48-29f9-4bd5-ae7b-404fbd646684.gif)
 
