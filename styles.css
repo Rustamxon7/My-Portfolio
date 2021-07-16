@@ -220,6 +220,12 @@ body {
   gap: 1.2rem;
 }
 
+.first-part {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .about-button {
   display: block;
   padding-top: 1.2rem;
