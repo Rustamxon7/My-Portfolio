@@ -4,7 +4,11 @@
 
 > Microverse-portfolion-project
 
-![Screen Shot 2021-07-13 at 8 17 10 PM](https://user-images.githubusercontent.com/69011963/125478570-5eb5c0ab-d5a3-457a-909b-25e01a7f92d2.png)
+<img width="902" alt="Screen Shot 2021-07-16 at 9 15 20 PM" src="https://user-images.githubusercontent.com/69011963/125978198-5e7385dc-d11a-45e8-8c70-192da9a32177.png">
+
+
+<img width="386" alt="Screen Shot 2021-07-16 at 9 14 54 PM" src="https://user-images.githubusercontent.com/69011963/125978214-5c3085cf-8835-4dad-bc5d-c5c956d81b73.png">
+
 
 Additional description about the project and its features.
 
@@ -23,6 +27,12 @@ To get a local copy up and running follow these simple example steps.
 - CSS
 - Git
 - GitHub
+
+## Live Demo
+
+## Live Demo
+
+[Live Demo Link](https://rustamxon7.github.io/Microverse-portfolio-project/)
 
 ### Install
 
