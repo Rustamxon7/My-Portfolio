@@ -271,12 +271,6 @@ body {
   transition: display 3s;
 }
 
-.list-selectors li:hover {
-  border: 0.1rem solid #6070FF;
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
 .list-selectors li {
   display: flex;
   align-items: center;
@@ -288,6 +282,12 @@ body {
   font-weight: 500;
   border: 0.1rem solid transparent;
   transition: transform 0.3s;
+}
+
+.list-selectors li:hover {
+  border: 0.1rem solid #6070ff;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .social-icons {
@@ -302,6 +302,10 @@ body {
 
 .social-icons li a img {
   transition: 0.3s;
+}
+
+.social-icons li a img:hover {
+  transform: scale(1.3);
 }
 
 .contact {
