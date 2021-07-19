@@ -251,19 +251,53 @@
           with it
         </p>
       </div>
-      <img
-        src=“images/section3/contact-form-shapes-mobile.svg”
-        alt=“background”
-        class=“contact-bg”
-      />
-      <div class=“contact-text”>
-        <h3 class=“heading-tertiary”>Contact me</h3>
-        <p class=“secondary-text”>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-      </div>
+      <form
+        action=“https://formspree.io/f/xzbyaeyk”
+        method=“POST”
+        class=“contact-form”
+      >
+        <ul>
+          <li>
+            <input
+              type=“text”
+              pattern=“[A-Za-z]+”
+              class=“contact-element”
+              name=“user-name”
+              placeholder=“Name”
+              maxlength=“30”
+              required
+            />
+          </li>
+          <li>
+            <input
+              type=“email”
+              class=“contact-element”
+              name=“user-email”
+              placeholder=“example@gmail.com”
+              required
+            />
+          </li>
+          <li>
+            <textarea
+              name=“user-message”
+              class=“contact-element”
+              cols=“30"
+              rows=“10”
+              placeholder=“Write your message here”
+              maxlength=“500”
+              required
+            ></textarea>
+          </li>
+          <li>
+            <input
+              type=“submit”
+              value=“Get in touch”
+              class=“button btn-contact”
+            />
+          </li>
+        </ul>
+      </form>
+
     </section>
   </body>
 </html>
