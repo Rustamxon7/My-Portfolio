@@ -178,7 +178,10 @@ body {
   color: #344563;
 }
 
-
+.card-tags {
+  display: flex;
+  gap: 8px;
+}
 
 
 
