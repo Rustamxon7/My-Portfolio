@@ -1,12 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse-portfolion-project
+# Microverse-portfolio-project (Mobile and desktop verison)
 
-> Microverse-portfolion-project
+> Microverse-portfolio-project
 
 microverse-template-1-project-desktop-version
 
-<img width="1440" alt="Screen Shot 2021-07-15 at 3 22 09 AM" src="https://user-images.githubusercontent.com/69011963/125701871-6760e803-06c7-4805-8658-fa0d361b6cba.png">
+![template-1](https://user-images.githubusercontent.com/69011963/125975150-9eda29f4-1429-4b3d-ae4e-4f2cb919ac9f.gif)
+
+
+microverse-template-1-project-mobile-version
+
+![template-1-mobile-verison](https://user-images.githubusercontent.com/69011963/125975880-6ddc4b48-29f9-4bd5-ae7b-404fbd646684.gif)
 
 Additional description about the project and its features.
 
@@ -30,9 +35,11 @@ To get a local copy up and running follow these simple example steps.
 - Git
 - GitHub
 
+[Live Demo Link](https://rustamxon7.github.io/Microverse-portfolio-project/)
+
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/microverse-template-1-project-desktop-version"
+To clone this repo go to [this link](https://github.com/Rustamxon7/Microverse-portfolio-project)
 
 git clone your repo
 
