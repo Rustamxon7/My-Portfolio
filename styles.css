@@ -178,18 +178,12 @@ body {
   color: #344563;
 }
 
-.card-tags {
-  display: flex;
-  gap: 8px;
-}
 
-.card-tags li {
-  list-style: none;
-  padding: 4px 12px;
-  color: #6070ff;
-  background-color: #ebebff;
-  border-radius: 8px;
-}
+
+
+
+
+
 
 .card-button {
   display: block;
