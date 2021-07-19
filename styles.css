@@ -261,6 +261,7 @@ body {
 .social-icons li img {
   height: 20px;
 }
+
 .contact {
   position: relative;
   display: flex;
@@ -286,12 +287,14 @@ body {
   font-weight: 700;
   color: #fff;
 }
+
 .secondary-text {
   font-size: 20px;
   font-weight: 400;
   color: #EBEBFF;
   text-align: center;
 }
+
 .contact-bg {
   position: absolute;
   top: 50%;
@@ -299,3 +302,4 @@ body {
   transform: translateY(-50%);
   height: 90%;
 }
+
