@@ -261,4 +261,41 @@ body {
 .social-icons li img {
   height: 20px;
 }
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  background-color: #6070FF;
+  height: 779px;
+  border-top-left-radius: 100px;
+  margin-top: -100px;
+  padding: 103px 24px 45px 24px;
+  overflow: hidden;
+}
 
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.heading-tertiary {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.secondary-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: #EBEBFF;
+  text-align: center;
+}
+.contact-bg {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 90%;
+}
