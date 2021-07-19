@@ -183,7 +183,16 @@ body {
   gap: 8px;
 }
 
+.card-tags li {
+list style: none;
+padding: 4px 12px;
+colour:#6070FF;
+background colour: #EBEBFF;
+border-radius: 8px;
 
+
+
+}
 
 
 
