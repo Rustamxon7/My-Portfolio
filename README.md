@@ -26,6 +26,10 @@ To get a local copy up and running follow these simple example steps.
 - Git
 - GitHub
 
+## Live Demo
+
+[Live Demo Link](https://rustamxon7.github.io/Microverse-portfolio-project/)
+
 ### Install
 
 To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/microverse-template-1-project-desktop-version"
