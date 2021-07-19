@@ -1,17 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse-portfolio-project (Mobile and desktop verison)
+# Microverse-portfolion-project
 
-> Microverse-portfolio-project
+> Microverse-portfolion-project
 
 microverse-template-1-project-desktop-version
 
-![template-1](https://user-images.githubusercontent.com/69011963/125975150-9eda29f4-1429-4b3d-ae4e-4f2cb919ac9f.gif)
+![Navbar](https://user-images.githubusercontent.com/69011963/125977370-63dce656-c179-4c96-bcc6-5b089d6dcf8a.gif)
 
+![social icons](https://user-images.githubusercontent.com/69011963/125977424-61fe6f44-392f-4561-835f-1ece945f9cf3.gif)
 
-microverse-template-1-project-mobile-version
+![card](https://user-images.githubusercontent.com/69011963/125977477-409704d3-253d-4411-b8a7-a67b5054f28e.gif)
 
-![template-1-mobile-verison](https://user-images.githubusercontent.com/69011963/125975880-6ddc4b48-29f9-4bd5-ae7b-404fbd646684.gif)
+![languages](https://user-images.githubusercontent.com/69011963/125977519-cf77a9b0-7b02-4147-8312-fb1b38ba834b.gif)
 
 Additional description about the project and its features.
 
@@ -35,11 +36,9 @@ To get a local copy up and running follow these simple example steps.
 - Git
 - GitHub
 
-[Live Demo Link](https://rustamxon7.github.io/Microverse-portfolio-project/)
-
 ### Install
 
-To clone this repo go to [this link](https://github.com/Rustamxon7/Microverse-portfolio-project)
+To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/microverse-template-1-project-desktop-version"
 
 git clone your repo
 

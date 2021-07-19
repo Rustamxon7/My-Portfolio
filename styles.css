@@ -419,11 +419,6 @@ body {
     color: #344563;
   }
 
-  .item-navigation li:hover {
-    transition-duration: 1s;
-    transform: scale(1.1);
-  }
-
   .header-text {
     padding: 2rem 39rem;
   }
