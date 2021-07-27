@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/microverse-template-1-project-desktop-version"
+To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/Portfolio-accessibility"
 
 git clone your repo
 
