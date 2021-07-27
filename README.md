@@ -4,15 +4,7 @@
 
 > Microverse-portfolion-project
 
-microverse-template-1-project-desktop-version
-
-![Navbar](https://user-images.githubusercontent.com/69011963/125977370-63dce656-c179-4c96-bcc6-5b089d6dcf8a.gif)
-
-![social icons](https://user-images.githubusercontent.com/69011963/125977424-61fe6f44-392f-4561-835f-1ece945f9cf3.gif)
-
-![card](https://user-images.githubusercontent.com/69011963/125977477-409704d3-253d-4411-b8a7-a67b5054f28e.gif)
-
-![languages](https://user-images.githubusercontent.com/69011963/125977519-cf77a9b0-7b02-4147-8312-fb1b38ba834b.gif)
+![Accessibility](https://user-images.githubusercontent.com/69011963/127171983-d40b28d5-e1ce-4157-875d-87484a953a5b.gif)
 
 Additional description about the project and its features.
 
@@ -38,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/microverse-template-1-project-desktop-version"
+To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/Portfolio-accessibility"
 
 git clone your repo
 
