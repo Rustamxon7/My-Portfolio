@@ -6,7 +6,9 @@ const btnOpenMenu = document.querySelector('.open-menu');
 function openMenu() {
   overlay.classList.remove('hidden');
 }
+
 function closeMenu() {
-    overlay.classList.add('hidden');
+  overlay.classList.add('hidden');
 }
-  
+
+btnOpenMenu.addEventListener('click', openMenu);
