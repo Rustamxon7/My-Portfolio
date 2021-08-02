@@ -58,6 +58,7 @@ body {
 }
 
 /* MOBILE MENU */
+
 .hidden {
   display: none;
 }
@@ -77,6 +78,29 @@ body {
   font-weight: 500;
 }
 
+.option {
+  color: white;
+  text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 27, 182, 0.548);
+  backdrop-filter: blur(6px);
+  z-index: 1;
+}
+
+.close-overlay {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+}
 
 /* MOBILE MENU END */
 
