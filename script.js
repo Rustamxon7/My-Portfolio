@@ -12,3 +12,7 @@ function closeMenu() {
 }
 
 btnOpenMenu.addEventListener('click', openMenu);
+btnCloseMenu.addEventListener('click', closeMenu);
+    
+
+
