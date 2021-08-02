@@ -2,7 +2,7 @@
 
 # Mobile-menu
 
-![Accessibility](https://user-images.githubusercontent.com/69011963/127171983-d40b28d5-e1ce-4157-875d-87484a953a5b.gif)
+![Mobile menu](https://user-images.githubusercontent.com/69011963/127881422-a56ba191-a6f6-4702-97ce-7d49f1458507.gif)
 
 Additional description about the project and its features.
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](?)
+[Live Demo Link](https://rustamxon7.github.io/Microverse-portfolio-project/)
 
 ## Getting Started
 
