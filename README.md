@@ -47,8 +47,9 @@ open index.html with live server
 
 👤 **Busiwa**
 
-- GitHub: [@githubhandle](?)
-- LinkedIn: [LinkedIn](?)
+- GitHub: (https://github.com/Busiwa24)
+- Twitter: (https://twitter.com/busiwaliuma)
+- LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-28385b80/)
 
 ## 🤝 Contributing
 

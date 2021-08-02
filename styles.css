@@ -448,6 +448,10 @@ body {
     padding: 2.4rem 15.5rem;
   }
 
+  .hamburger {
+    display: none;
+  }
+
   .item-navigation {
     display: flex;
     list-style: none;

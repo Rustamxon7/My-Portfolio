@@ -13,6 +13,7 @@ function closeMenu() {
 
 btnOpenMenu.addEventListener('click', openMenu);
 btnCloseMenu.addEventListener('click', closeMenu);
-    
 
-
+for (let i = 0; i < options.length; i += 1) {
+  options[i].addEventListener('click', closeMenu);
+}
