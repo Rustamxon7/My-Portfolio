@@ -57,6 +57,12 @@ body {
   padding: 0 3.6rem;
 }
 
+/* MOBILE MENU */
+
+
+
+/* MOBILE MENU END */
+
 .logo {
   font-size: 1.8rem;
   font-weight: 700;
@@ -399,10 +405,6 @@ body {
 
   .navigation {
     padding: 2.4rem 15.5rem;
-  }
-
-  .navigation img {
-    display: none;
   }
 
   .item-navigation {

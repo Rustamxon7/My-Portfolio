@@ -17,13 +17,25 @@
   <body>
     <nav class="navigation">
       <p class="logo">My Logo</p>
-      <img src="images/Union.svg" alt="logo" />
+      <img src="images/Union.svg" alt="logo" class="hamburger open-menu" />
       <ul class="item-navigation">
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+
+    <div class="overlay hidden">
+      <button type="button" class="close-overlay close-menu">
+        <img src="images/close-overlay.svg" alt="close-overlay" />
+      </button>
+
+      <ul class="sections-list">
+        <li><a href="#" class="option">Portfolio</a></li>
+        <li><a href="#" class="option">About</a></li>
+        <li><a href="#" class="option">Contact</a></li>
+      </ul>
+    </div>
 
     <header class="header">
       <div class="header-text">
