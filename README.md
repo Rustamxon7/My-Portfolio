@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse-portfolion-project
+# Mobile-menu
 
-> Microverse-portfolion-project
-
-![Accessibility](https://user-images.githubusercontent.com/69011963/127171983-d40b28d5-e1ce-4157-875d-87484a953a5b.gif)
+![Mobile menu](https://user-images.githubusercontent.com/69011963/127881422-a56ba191-a6f6-4702-97ce-7d49f1458507.gif)
 
 Additional description about the project and its features.
 
@@ -12,6 +10,7 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
+- JavaScript
 
 ## Live Demo
 
@@ -25,12 +24,13 @@ To get a local copy up and running follow these simple example steps.
 
 - HTML
 - CSS
+- JavaScript
 - Git
 - GitHub
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project/tree/Portfolio-accessibility"
+To clone this repo go to "?"
 
 git clone your repo
 
@@ -38,12 +38,18 @@ cd into the folder
 
 open index.html with live server
 
-## Author
+## Authors
 
 👤 **Rustamxon**
 
 - GitHub: [@githubhandle](https://github.com/Rustamxon7)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rustamjon-tolipov-6a831020b)
+
+👤 **Busiwa**
+
+- GitHub: (https://github.com/Busiwa24)
+- Twitter: (https://twitter.com/busiwaliuma)
+- LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-28385b80/)
 
 ## 🤝 Contributing
 
