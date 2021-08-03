@@ -91,7 +91,7 @@ body {
   height: 100%;
   background-color: rgba(10, 27, 182, 0.548);
   backdrop-filter: blur(6px);
-  z-index: 1;
+  z-index: 100;
 }
 
 .close-overlay {
@@ -167,6 +167,64 @@ body {
   color: #6070ff;
 }
 
+/* POPUP WINDOW */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(24, 24, 24, 0.158);
+  backdrop-filter: blur(0.6rem);
+  z-index: 100;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.text-secondary.mob {
+  overflow: hidden;
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.line {
+  border: 0.1rem solid #ebecf0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.popup-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  gap: 5rem;
+}
+
+.btn-element {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.popup-close-btn {
+  height: 2rem;
+  position: absolute;
+  width: 1.4rem;
+  right: 2rem;
+  top: 2.8rem;
+}
+
+/* Popup window end */
+
 .work {
   display: flex;
   flex-direction: column;
@@ -191,7 +249,7 @@ body {
   transition-duration: 0.1s;
 }
 
-.card img {
+.card-img {
   height: 22rem;
   object-fit: cover;
   border-radius: 0.8rem;
@@ -392,7 +450,7 @@ body {
 .secondary-text:hover,
 .heading-tertiary:hover {
   transition-duration: 1s;
-  transform: translate(0.1px, 10px);
+  transform: translate(0.01rem, 1rem);
 }
 
 .contact-bg {
@@ -466,6 +524,22 @@ body {
     color: #344563;
   }
 
+  .item-navigation li a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 0.2rem;
+    left: 50%;
+    background-color: rgb(78, 77, 77);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .item-navigation li a:hover::after {
+    width: 100%;
+  }
+
   .header-text {
     padding: 2rem 39rem;
   }
@@ -474,6 +548,75 @@ body {
     align-items: center;
     justify-content: space-evenly;
   }
+
+  /* POPUP MEDIA */
+
+  .card.popup.desk {
+    height: 73rem;
+    width: 100rem;
+  }
+
+  .card-content.desk {
+    padding: 0;
+    display: flex;
+  }
+
+  .heading-secondary.desk {
+    margin-top: -1rem;
+  }
+
+  .card-info.desk {
+    margin-top: -3rem;
+  }
+
+  .card-img.desk {
+    margin-top: -2rem;
+    height: 35rem;
+    width: 95rem;
+  }
+
+  .desk-pop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .first {
+    width: 70%;
+  }
+
+  .text-secondary.desk {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .second {
+    margin-top: -5rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .card-tags.desk {
+    display: flex;
+    justify-content: center;
+  }
+
+  .popup-button.desk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button.btn-element.desk {
+    font-size: 1.3rem;
+  }
+
+  /* POPUP MEDIA END */
 
   .card {
     display: flex;
@@ -486,7 +629,7 @@ body {
     flex-direction: row-reverse;
   }
 
-  .card img {
+  .card-img {
     height: 44.8rem;
     width: 54.4rem;
   }
