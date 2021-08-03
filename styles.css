@@ -168,6 +168,7 @@ body {
 }
 
 /* POPUP WINDOW */
+
 .popup-overlay {
   position: fixed;
   top: 0;
@@ -178,6 +179,7 @@ body {
   backdrop-filter: blur(6px);
   z-index: 100;
 }
+
 .popup {
   position: fixed;
   top: 50%;
@@ -186,16 +188,19 @@ body {
   transform: translate(-50%, -50%);
   z-index: 100;
 }
+
 .text-secondary.mob {
   overflow: hidden;
   height: 100px;
   margin-bottom: 2rem;
 }
+
 .line {
-  border: 1px solid #EBECF0;
+  border: 1px solid #ebecf0;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
 .popup-button {
   display: flex;
   flex-direction: row;
@@ -203,11 +208,13 @@ body {
   align-self: center;
   gap: 5rem;
 }
+
 .btn-element {
   display: inline-flex;
   flex-direction: row;
   gap: 1rem;
 }
+
 .popup-close-btn {
   height: 2rem;
   position: absolute;
@@ -215,7 +222,6 @@ body {
   right: 30px;
   top: 30px;
 }
-
 
 /* Popup window end*/
 
@@ -545,7 +551,73 @@ body {
 
   /* POPUP MEDIA */
 
+.card.popup.desk {
+    height: 73rem;
+    width: 100rem;
+  }
 
+  .card-content.desk {
+    padding: 0;
+    display: flex;
+  }
+
+  .heading-secondary.desk {
+    margin-top: -1rem;
+  }
+
+  .card-info.desk {
+    margin-top: -3rem;
+  }
+
+  .card-img.desk {
+    margin-top: -2rem;
+    height: 35rem;
+    width: 95rem;
+  }
+
+  .desk-pop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .first {
+    width: 70%;
+  }
+
+  .text-secondary.desk {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .second {
+    margin-top: -5rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .card-tags.desk {
+    display: flex;
+    justify-content: center;
+  }
+
+  .popup-button {
+  }
+
+  .popup-button.desk {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .button.btn-element.desk {
+    font-size: 13px;
+  }
 
   /* POPUP MEDIA END*/
 
