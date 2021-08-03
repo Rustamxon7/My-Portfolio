@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Mobile-menu
+# Popup-menu
 
-![Mobile menu](https://user-images.githubusercontent.com/69011963/127881422-a56ba191-a6f6-4702-97ce-7d49f1458507.gif)
+![PopUp menu desk](https://user-images.githubusercontent.com/69011963/128047849-0b0660cc-d911-4617-90ed-ae5a4da23844.gif)
+
+![PopUp menu](https://user-images.githubusercontent.com/69011963/128047873-9df5b622-3b63-4989-b09e-5f3c755ad039.gif)
 
 Additional description about the project and its features.
 
@@ -30,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-To clone this repo go to "?"
+To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project.git"
 
 git clone your repo
 
