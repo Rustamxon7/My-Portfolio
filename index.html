@@ -15,6 +15,65 @@
   </head>
 
   <body>
+    <!-- POPUP BEGINNING -->
+    <div class="popup-overlay hidden" id="popup">
+      <div class="card popup desk">
+        <div class="card-content desk">
+          <img
+            src="images/section-work/popupClose-icon.svg"
+            alt="close-overlay"
+            class="popup-close-btn"
+          />
+          <h2 class="heading-secondary desk" id="name">Tonic</h2>
+          <ul class="card-info desk">
+            <li id="companyName">CANOPY</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text" id="job">Back End Dev</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text" id="data">2015</li>
+          </ul>
+          <img
+            class="card-img desk"
+            id="img"
+            src="images/section-work/snapshoot4.png"
+            alt="Tonic"
+          />
+          <div class="desk-pop">
+            <div class="first">
+              <p class="text-secondary mob desk" id="description"></p>
+            </div>
+            <div class="second">
+              <ul class="card-tags desk" id="tags"></ul>
+              <div class="line"></div>
+              <div class="popup-button desk">
+                <a href="#" class="button btn-element desk"
+                  >See Live
+                  <img src="images/section-work/Live-icon.svg" alt="live"
+                /></a>
+                <a href="#" class="button btn-element desk"
+                  >See Source
+                  <img src="images/section-work/Github-icon.svg" alt="git"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- POPUP END -->
+
     <nav class="navigation">
       <p class="logo">My Logo</p>
       <img src="images/Union.svg" alt="logo" class="hamburger open-menu" />
@@ -71,7 +130,11 @@
 
     <section class="work" id="work">
       <div class="card card-1">
-        <img src="images/section-work/snapshoot4.png" alt="Tonic" />
+        <img
+          class="card-img popup-img"
+          src="images/section-work/snapshoot4.png"
+          alt="Tonic"
+        />
         <div class="card-content">
           <h2 class="heading-secondary">Tonic</h2>
           <ul class="card-info">
@@ -102,13 +165,17 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <div class="card-button">
-            <a href="#" class="button">See Project</a>
+          <div class="card-button" id="btn-1">
+            <button class="button" type="button">See Project</button>
           </div>
         </div>
       </div>
       <div class="card card-2">
-        <img src="images/section-work/snapshoot3.png" alt="Tonic" />
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot3.png"
+          alt="Tonic"
+        />
         <div class="card-content">
           <h2 class="heading-secondary">Multi-Post Stories</h2>
           <ul class="card-info">
@@ -140,13 +207,17 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <div class="card-button">
-            <a href="#" class="button">See Project</a>
+          <div class="card-button" onclick="changePopup(2)">
+            <button class="button" id="btn-2" type="button">See Project</button>
           </div>
         </div>
       </div>
       <div class="card card-3">
-        <img src="images/section-work/snapshoot.png" alt="Tonic" />
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot.png"
+          alt="Tonic"
+        />
         <div class="card-content">
           <h2 class="heading-secondary">Facebook 360</h2>
           <ul class="card-info">
@@ -178,13 +249,17 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <div class="card-button">
-            <a href="#" class="button">See Project</a>
+          <div class="card-button" id="btn-3">
+            <button class="button" type="button">See Project</button>
           </div>
         </div>
       </div>
       <div class="card card-4">
-        <img src="images/section-work/snapshoot1.png" alt="Tonic" />
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot1.png"
+          alt="Tonic"
+        />
         <div class="card-content">
           <h2 class="heading-secondary">Uber Navigation</h2>
           <ul class="card-info">
@@ -216,8 +291,8 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <div class="card-button">
-            <a href="#" class="button">See Project</a>
+          <div class="card-button" id="btn-4">
+            <button class="button" type="button">See Project</button>
           </div>
         </div>
       </div>
@@ -260,7 +335,8 @@
         <div class="skills-list">
           <div class="list-box">
             <div class="list-btn">
-              Languages <img src="images/section-about/Union.svg" alt="arrow" />
+              Languages
+              <img src="images/section-about/Union.svg" alt="arrow" />
             </div>
             <ul class="list-selectors">
               <li>
@@ -283,7 +359,8 @@
           </div>
           <div class="list-box">
             <div class="list-btn">
-              Skills <img src="images/section-about/Union.svg" alt="arrow" />
+              Skills
+              <img src="images/section-about/Union.svg" alt="arrow" />
             </div>
           </div>
         </div>

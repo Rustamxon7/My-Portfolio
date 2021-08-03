@@ -1,3 +1,4 @@
+// Mobile menu start////////////////////
 const overlay = document.querySelector('.overlay');
 const options = document.querySelectorAll('.option');
 const btnCloseMenu = document.querySelector('.close-menu');
@@ -17,3 +18,9 @@ btnCloseMenu.addEventListener('click', closeMenu);
 for (let i = 0; i < options.length; i += 1) {
   options[i].addEventListener('click', closeMenu);
 }
+
+// Mobile menu end////////////////////
+
+// Popup menu start////////////////////
+
+// Popup end /////////////////////
