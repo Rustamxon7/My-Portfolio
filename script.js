@@ -103,5 +103,22 @@ function changePopup(order) {
 function closePopUp() {
   popup.classList.add(‘hidden’);
 }
-
+button1.addEventListener(‘click’, () => {
+  openPopUp();
+  changePopup(1);
+});
+button2.addEventListener(‘click’, () => {
+  openPopUp();
+  changePopup(2);
+});
+button3.addEventListener(‘click’, () => {
+  openPopUp();
+  changePopup(3);
+});
+button4.addEventListener(‘click’, () => {
+  openPopUp();
+  changePopup(4);
+});
+popupOverlay.addEventListener(‘click’, closePopUp);
+btnClosePop.addEventListener(‘click’, closePopUp); 
 // Popup end /////////////////////
