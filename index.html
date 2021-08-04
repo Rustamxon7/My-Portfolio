@@ -383,13 +383,15 @@
         </p>
       </div>
       <form
-        action="https://formspree.io/f/xzbyaeyk"
+        id="contact-form"
         method="POST"
         class="contact-form"
+        action="https://formspree.io/f/xzbyaeyk"
       >
         <ul>
           <li>
             <input
+              id="user-name"
               type="text"
               pattern="[A-Za-z]+"
               class="contact-element"
@@ -398,18 +400,23 @@
               maxlength="30"
               required
             />
+            <small></small>
           </li>
           <li>
             <input
+              id="email"
               type="email"
               class="contact-element"
               name="user-email"
               placeholder="example@gmail.com"
               required
             />
+            <p class="show-msg">Your message is not lowercase!</p>
           </li>
+
           <li>
             <textarea
+              id="text"
               name="user-message"
               class="contact-element"
               cols="30"
@@ -421,6 +428,7 @@
           </li>
           <li>
             <input
+              id="submit"
               type="submit"
               value="Get in touch"
               class="button btn-contact"

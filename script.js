@@ -1,4 +1,4 @@
-// Mobile menu object////////////////////
+// Mobile menu start////////////////////
 const overlay = document.querySelector('.overlay');
 const options = document.querySelectorAll('.option');
 const btnCloseMenu = document.querySelector('.close-menu');
@@ -134,3 +134,5 @@ popupOverlay.addEventListener('click', closePopUp);
 btnClosePop.addEventListener('click', closePopUp);
 
 // Popup end /////////////////////
+
+// Validate contact form end /////////////////////
