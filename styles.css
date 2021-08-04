@@ -474,7 +474,8 @@ body {
 }
 
 /* Alert message start */
-  .show-msg {
+
+.show-msg {
   display: none;
   font-size: 1.1rem;
   padding: 1rem 1.6rem;
@@ -482,10 +483,36 @@ body {
   width: 220px;
   background: #fff;
   border-radius: 10px;
-  border: #CFD8DB solid 1px;
+  border: #cfd8db solid 1px;
   animation: show-msg 1s 1;
   margin-top: 1.3rem;
 }
+
+.show-msg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 13px solid transparent;
+  border-bottom-color: #fff;
+  border-top: 0;
+  margin-left: -9rem;
+  margin-top: -1.3rem;
+}
+
+@keyframes show-msg {
+  from {
+    visibility: hidden;
+    background-color: #fff;
+  }
+
+  to {
+    background-color: rgba(244, 244, 248, 0.048);
+  }
+}
+
 /* Alert message end */
 
 .contact-element {
