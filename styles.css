@@ -474,7 +474,18 @@ body {
 }
 
 /* Alert message start */
-
+  .show-msg {
+  display: none;
+  font-size: 1.1rem;
+  padding: 1rem 1.6rem;
+  position: relative;
+  width: 220px;
+  background: #fff;
+  border-radius: 10px;
+  border: #CFD8DB solid 1px;
+  animation: show-msg 1s 1;
+  margin-top: 1.3rem;
+}
 /* Alert message end */
 
 .contact-element {
