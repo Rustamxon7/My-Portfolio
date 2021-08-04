@@ -2,7 +2,8 @@
 
 # Validate Contact form
 
-![Validate contact form](https://user-images.githubusercontent.com/69011963/128155556-3bc28bac-e6a2-4cf6-94fe-0e81dc18a66e.gif)
+![Validate contact form](https://user-images.githubusercontent.com/69011963/128156834-1072eff8-6286-4ccf-98c6-859a93dcc16a.gif)
+
 
 Additional description about the project and its features.
 

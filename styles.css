@@ -420,7 +420,6 @@ body {
   align-items: center;
   gap: 6rem;
   background-color: #6070ff;
-  height: 77.9rem;
   border-top-left-radius: 10rem;
   margin-top: -10rem;
   padding: 10.3rem 2.4rem 4.5rem 2.4rem;
@@ -458,7 +457,7 @@ body {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  height: 90%;
+  height: 95%;
 }
 
 .contact-form {
@@ -472,6 +471,34 @@ body {
   list-style: none;
   gap: 2rem;
 }
+
+/* Alert message start */
+
+.show-msg {
+  color: crimson;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  display: none;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  text-align: center;
+  animation: show-msg 1s 1;
+  margin-top: -2rem;
+  margin-bottom: 0.4rem;
+}
+
+@keyframes show-msg {
+  from {
+    visibility: hidden;
+    background-color: #fff;
+  }
+
+  to {
+    border-radius: 1rem;
+  }
+}
+
+/* Alert message end */
 
 .contact-element {
   border: 0.1rem solid #cfd8dc;
@@ -682,7 +709,6 @@ body {
   }
 
   .contact {
-    height: 100vh;
     background-image: url(desktop/contact-background.svg);
     background-repeat: no-repeat;
     background-position-y: 100%;
