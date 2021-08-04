@@ -134,7 +134,20 @@ popupOverlay.addEventListener('click', closePopUp);
 btnClosePop.addEventListener('click', closePopUp);
 
 // Popup end /////////////////////
-const form = document.getElementById(‘contact-form’);
-const email = document.getElementById(‘email’);
-const msg = document.querySelector(‘.show-msg’);
+
+// Validate contact form end /////////////////////
+
+const form = document.getElementById('contact-form');
+const email = document.getElementById('email');
+const msg = document.querySelector('.show-msg');
+
+function validationEmail(e) {
+  if (email.value !== email.value.toLowerCase()) {
+    msg.style.display = 'block';
+    e.preventDefault();
+  }
+}
+
+form.addEventListener('submit', validationEmail);
+
 // Validate contact form end /////////////////////
