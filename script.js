@@ -134,5 +134,7 @@ popupOverlay.addEventListener('click', closePopUp);
 btnClosePop.addEventListener('click', closePopUp);
 
 // Popup end /////////////////////
-
+const form = document.getElementById(‘contact-form’);
+const email = document.getElementById(‘email’);
+const msg = document.querySelector(‘.show-msg’);
 // Validate contact form end /////////////////////
