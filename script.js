@@ -157,5 +157,15 @@ const inputName = document.getElementById('user-name');
 const inputEmail = document.getElementById('email');
 const inputMessage = document.getElementById('user-message'
 
-
 // Preserve data in the browser end /////////////////////
+
+function storageLocally() {
+  const localName = inputName.value;
+  const localEmail = inputEmail.value;
+  const localMessage = inputMessage.value;
+
+  localStorage.setItem('name', localName);
+  localStorage.setItem('email', localEmail);
+  localStorage.setItem('message', localMessage);
+}
+
