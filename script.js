@@ -156,6 +156,7 @@ form.addEventListener('submit', validationEmail);
 const inputName = document.getElementById('user-name');
 const inputEmail = document.getElementById('email');
 const inputMessage = document.getElementById('user-message'
+
 function storageLocally() {
   const localName = inputName.value;
   const localEmail = inputEmail.value;
@@ -165,4 +166,11 @@ function storageLocally() {
   localStorage.setItem('email', localEmail);
   localStorage.setItem('message', localMessage);
 }
+
+function preFillData() {
+  inputName.value += localStorage.getItem('name');
+  inputEmail.value += localStorage.getItem('email');
+  inputMessage.value += localStorage.getItem('message');
+}
+
 // Preserve data in the browser end /////////////////////
