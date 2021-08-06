@@ -153,5 +153,9 @@ form.addEventListener('submit', validationEmail);
 // Validate contact form end /////////////////////
 
 // Preserve data in the browser start /////////////////////
+const inputName = document.getElementById('user-name');
+const inputEmail = document.getElementById('email');
+const inputMessage = document.getElementById('user-message'
+
 
 // Preserve data in the browser end /////////////////////
