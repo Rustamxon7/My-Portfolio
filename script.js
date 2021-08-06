@@ -172,5 +172,11 @@ function preFillData() {
   inputEmail.value += localStorage.getItem('email');
   inputMessage.value += localStorage.getItem('message');
 }
+if (localStorage.getItem('name')) {
+  preFillData();
+} else {
+  storageLocally();
+}
+
 
 // Preserve data in the browser end /////////////////////
