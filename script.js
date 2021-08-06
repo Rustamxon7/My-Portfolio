@@ -152,10 +152,10 @@ form.addEventListener('submit', validationEmail);
 
 // Validate contact form end /////////////////////
 
-/g/ Preserve data in the browser start /////////////////////
+// Preserve data in the browser start /////////////////////
 const inputName = document.getElementById('user-name');
 const inputEmail = document.getElementById('email');
-const inputMessage = document.getElementById('user-message'
+const inputMessage = document.getElementById('user-message');
 
 function storageLocally() {
   const localName = inputName.value;
@@ -172,11 +172,16 @@ function preFillData() {
   inputEmail.value += localStorage.getItem('email');
   inputMessage.value += localStorage.getItem('message');
 }
+
 if (localStorage.getItem('name')) {
   preFillData();
 } else {
   storageLocally();
 }
 
+inputName.onchange = storageLocally;
+inputEmail.onchange = storageLocally;
+inputMessage.onchange = storageLocally;
 
+form.addEventListener('submit', storageLocally, preFillData);
 // Preserve data in the browser end /////////////////////
