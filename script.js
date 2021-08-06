@@ -154,36 +154,4 @@ form.addEventListener('submit', validationEmail);
 
 // Preserve data in the browser start /////////////////////
 
-const inputName = document.getElementById('user-name');
-const inputEmail = document.getElementById('email');
-const inputMessage = document.getElementById('user-message');
-
-function storageLocally() {
-  const localName = inputName.value;
-  const localEmail = inputEmail.value;
-  const localMessage = inputMessage.value;
-
-  localStorage.setItem('name', localName);
-  localStorage.setItem('email', localEmail);
-  localStorage.setItem('message', localMessage);
-}
-
-function preFillData() {
-  inputName.value += localStorage.getItem('name');
-  inputEmail.value += localStorage.getItem('email');
-  inputMessage.value += localStorage.getItem('message');
-}
-
-if (localStorage.getItem('name')) {
-  preFillData();
-} else {
-  storageLocally();
-}
-
-inputName.onchange = storageLocally;
-inputEmail.onchange = storageLocally;
-inputMessage.onchange = storageLocally;
-
-form.addEventListener('submit', storageLocally, preFillData);
-
 // Preserve data in the browser end /////////////////////
