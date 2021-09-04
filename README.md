@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project.git"
+To clone this repo go to "https://github.com/Rustamxon7/My-portfolio-project.git"
 
 git clone your repo
 
