@@ -1,11 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microverse-portfolion-project
+# My-portfolio-project
 
-> Microverse-portfolion-project
+> My-portfolio-project
 
-<img width="1440" alt="Screen Shot 2021-07-08 at 9 53 29 PM" src="https://user-images.githubusercontent.com/69011963/124961699-390e6580-e037-11eb-8f31-723540ff2707.png">
-
+<img width="1232" alt="Screen Shot 2021-09-04 at 5 43 30 AM" src="https://user-images.githubusercontent.com/69011963/132077201-e8fd3abc-0d75-41b1-a77a-916a6669da1c.png">
 
 Additional description about the project and its features.
 
@@ -27,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project"
+To clone this repo go to "https://github.com/Rustamxon7/My-portfolio-project"
 
 git clone your repo
 
@@ -46,7 +45,7 @@ open index.html with live server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Rustamxon7/Microverse-portfolio-project/issues).
+Feel free to check the [issues page](https://github.com/Rustamxon7/My-portfolio-project/issues).
 
 ## Show your support
 
