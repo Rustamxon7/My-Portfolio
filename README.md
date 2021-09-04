@@ -4,7 +4,7 @@
 
 > Microverse-portfolion-project
 
-![Screen Shot 2021-07-08 at 2 15 22 AM](https://user-images.githubusercontent.com/69011963/124829719-6a812580-df92-11eb-843f-9105b032974b.png)
+<img width="1232" alt="Screen Shot 2021-09-04 at 5 43 30 AM" src="https://user-images.githubusercontent.com/69011963/132077166-e8b6bb5c-1012-45b5-8810-38304c125d2f.png">
 
 Additional description about the project and its features.
 
