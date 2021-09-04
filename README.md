@@ -30,11 +30,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live Demo Link](https://rustamxon7.github.io/Microverse-portfolio-project/)
+[Live Demo Link](https://rustamxon7.github.io/My-portfolio-project/)
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/Microverse-portfolio-project"
+To clone this repo go to "https://github.com/Rustamxon7/My-portfolio-project"
 
 git clone your repo
 
@@ -58,7 +58,7 @@ open index.html with live server
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Rustamxon7/Microverse-portfolio-project/issues).
+Feel free to check the [issues page](https://github.com/Rustamxon7/My-portfolio-project/issues).
 
 ## Show your support
 
