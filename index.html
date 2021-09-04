@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portfolio Project</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,15 +15,86 @@
   </head>
 
   <body>
+    <!-- POPUP BEGINNING PAIR PROGRAMMING-->
+    <div class="popup-overlay hidden" id="popup">
+      <div class="card popup desk">
+        <div class="card-content desk">
+          <img
+            src="images/section-work/popupClose-icon.svg"
+            alt="close-overlay"
+            class="popup-close-btn"
+          />
+          <h2 class="heading-secondary desk" id="name">Tonic</h2>
+          <ul class="card-info desk">
+            <li id="companyName">CANOPY</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text" id="job">Back End Dev</li>
+            <li>
+              <img
+                src="images/section-work/Counter.svg"
+                alt="dot"
+                class="card-info-dot"
+              />
+            </li>
+            <li class="input-text" id="data">2015</li>
+          </ul>
+          <img
+            class="card-img desk"
+            id="img"
+            src="images/section-work/snapshoot4.png"
+            alt="Tonic"
+          />
+          <div class="desk-pop">
+            <div class="first">
+              <p class="text-secondary mob desk" id="description"></p>
+            </div>
+            <div class="second">
+              <ul class="card-tags desk" id="tags"></ul>
+              <div class="line"></div>
+              <div class="popup-button desk">
+                <a href="#" class="button btn-element desk"
+                  >See Live
+                  <img src="images/section-work/Live-icon.svg" alt="live"
+                /></a>
+                <a href="#" class="button btn-element desk"
+                  >See Source
+                  <img src="images/section-work/Github-icon.svg" alt="git"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- POPUP END -->
+
     <nav class="navigation">
       <p class="logo">My Logo</p>
-      <img src="images/Union.svg" alt="union" />
+      <img src="images/Union.svg" alt="logo" class="hamburger open-menu" />
       <ul class="item-navigation">
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#work">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+
+    <div class="overlay hidden">
+      <button type="button" class="close-overlay close-menu">
+        <img src="images/close-overlay.svg" alt="close-overlay" />
+      </button>
+
+      <ul class="sections-list">
+        <li><a href="#work" class="option">Portfolio</a></li>
+        <li><a href="#about" class="option">About</a></li>
+        <li><a href="#contact" class="option">Contact</a></li>
+      </ul>
+    </div>
 
     <header class="header">
       <div class="header-text">
@@ -57,9 +128,13 @@
       </div>
     </header>
 
-    <section class="work">
+    <section class="work" id="work">
       <div class="card card-1">
-        <img src="images/section-work/snapshoot4.png" alt="Tonic" />
+        <img
+          class="card-img popup-img"
+          src="images/section-work/snapshoot4.png"
+          alt="Tonic"
+        />
         <div class="card-content">
           <h2 class="heading-secondary">Tonic</h2>
           <ul class="card-info">
@@ -90,13 +165,17 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <div class="card-button">
-            <a href="#" class="button">See Project</a>
+          <div class="card-button" id="btn-1">
+            <button class="button" type="button">See Project</button>
           </div>
         </div>
       </div>
       <div class="card card-2">
-        <img src="images/section-work/snapshoot3.png" alt="Tonic" />
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot3.png"
+          alt="Tonic"
+        />
         <div class="card-content">
           <h2 class="heading-secondary">Multi-Post Stories</h2>
           <ul class="card-info">
@@ -125,16 +204,21 @@
           </p>
           <ul class="card-tags">
             <li>html</li>
+            <li>Ruby on rails</li>
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <div class="card-button">
-            <a href="#" class="button">See Project</a>
+          <div class="card-button" onclick="changePopup(2)">
+            <button class="button" id="btn-2" type="button">See Project</button>
           </div>
         </div>
       </div>
       <div class="card card-3">
-        <img src="images/section-work/snapshoot.png" alt="Tonic" />
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot.png"
+          alt="Tonic"
+        />
         <div class="card-content">
           <h2 class="heading-secondary">Facebook 360</h2>
           <ul class="card-info">
@@ -166,13 +250,17 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <div class="card-button">
-            <a href="#" class="button">See Project</a>
+          <div class="card-button" id="btn-3">
+            <button class="button" type="button">See Project</button>
           </div>
         </div>
       </div>
       <div class="card card-4">
-        <img src="images/section-work/snapshoot1.png" alt="Tonic" />
+        <img
+          class="card-img"
+          src="images/section-work/snapshoot1.png"
+          alt="Tonic"
+        />
         <div class="card-content">
           <h2 class="heading-secondary">Uber Navigation</h2>
           <ul class="card-info">
@@ -204,14 +292,14 @@
             <li>css</li>
             <li>javaScript</li>
           </ul>
-          <div class="card-button">
-            <a href="#" class="button">See Project</a>
+          <div class="card-button" id="btn-4">
+            <button class="button" type="button">See Project</button>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-text">
         <div class="first-part">
           <h2 class="heading-primary">About Myself</h2>
@@ -248,7 +336,8 @@
         <div class="skills-list">
           <div class="list-box">
             <div class="list-btn">
-              Languages <img src="images/section-about/Union.svg" alt="arrow" />
+              Languages
+              <img src="images/section-about/Union.svg" alt="arrow" />
             </div>
             <ul class="list-selectors">
               <li>
@@ -271,14 +360,15 @@
           </div>
           <div class="list-box">
             <div class="list-btn">
-              Skills <img src="images/section-about/Union.svg" alt="arrow" />
+              Skills
+              <img src="images/section-about/Union.svg" alt="arrow" />
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <img
         src="images/section-about/contact-form-shapes-mobile.svg"
         alt="background"
@@ -293,13 +383,15 @@
         </p>
       </div>
       <form
-        action="https://formspree.io/f/xzbyaeyk"
+        id="contact-form"
         method="POST"
         class="contact-form"
+        action="https://formspree.io/f/xzbyaeyk"
       >
         <ul>
           <li>
             <input
+              id="user-name"
               type="text"
               pattern="[A-Za-z]+"
               class="contact-element"
@@ -308,9 +400,11 @@
               maxlength="30"
               required
             />
+            <small></small>
           </li>
           <li>
             <input
+              id="email"
               type="email"
               class="contact-element"
               name="user-email"
@@ -318,8 +412,10 @@
               required
             />
           </li>
+
           <li>
             <textarea
+              id="user-message"
               name="user-message"
               class="contact-element"
               cols="30"
@@ -330,7 +426,9 @@
             ></textarea>
           </li>
           <li>
+            <p class="show-msg">Please make sure the email is all lower case!</p>
             <input
+              id="submit"
               type="submit"
               value="Get in touch"
               class="button btn-contact"
@@ -339,5 +437,21 @@
         </ul>
       </form>
     </section>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R8M7SMW6NF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-R8M7SMW6NF');
+    </script>
+    <script src="script.js"></script>
   </body>
 </html>

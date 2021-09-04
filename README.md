@@ -6,7 +6,9 @@
 
 microverse-template-1-project-desktop-version
 
-![template-1](https://user-images.githubusercontent.com/69011963/125978508-bcee40d7-c29b-4029-a743-fac7ecbc8e5b.gif)
+# Preserve Data
+
+![PortfolioProject](https://user-images.githubusercontent.com/69011963/132076741-6fd7303e-29a7-4aab-afac-33d29329cefc.gif)
 
 Additional description about the project and its features.
 
@@ -14,6 +16,11 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
+- JavaScript
+
+## Live Demo
+
+[Live Demo Link](https://rustamxon7.github.io/My-portfolio-project/)
 
 ## Getting Started
 
@@ -23,6 +30,7 @@ To get a local copy up and running follow these simple example steps.
 
 - HTML
 - CSS
+- JavaScript
 - Git
 - GitHub
 
@@ -32,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-To clone this repo go to "https://github.com/Rustamxon7/My-portfolio-project/tree/microverse-template-1-project-desktop-version"
+To clone this repo go to "https://github.com/Rustamxon7/My-portfolio-project.git"
 
 git clone your repo
 
@@ -40,12 +48,18 @@ cd into the folder
 
 open index.html with live server
 
-## Author
+## Authors
 
 👤 **Rustamxon**
 
 - GitHub: [@githubhandle](https://github.com/Rustamxon7)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rustamjon-tolipov-6a831020b)
+
+👤 **Busiwa**
+
+- GitHub: (https://github.com/Busiwa24)
+- Twitter: (https://twitter.com/busiwaliuma)
+- LinkedIn: (https://www.linkedin.com/in/busiwa-liuma-28385b80/)
 
 ## 🤝 Contributing
 
