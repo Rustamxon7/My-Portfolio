@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rustamxon7.github.io/Microverse-portfolio-project/)
+[Live Demo Link](https://rustamxon7.github.io/My-portfolio-project/)
 
 ## Getting Started
 
