@@ -26,14 +26,6 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
-
 ## Live Demo
 
 [Live Demo Link](https://rustamxon7.github.io/My-portfolio-project/)
