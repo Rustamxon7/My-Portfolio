@@ -26,9 +26,7 @@ Additional description about the project and its features.
 
 To get a local copy up and running follow these simple example steps.
 
-## Live Demo
 
-[Live Demo Link](https://rustamxon7.github.io/My-portfolio-project/)
 
 ### Install
 
