@@ -20,7 +20,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rustamxon7.github.io/My-portfolio-project/)
+[Live Demo Link](https://rustamxon7.github.io/My-Portfolio/)
 
 ## Getting Started
 
